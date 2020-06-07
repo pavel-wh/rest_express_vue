@@ -16,17 +16,34 @@ Use the Node package manager [npm](https://www.npmjs.com/) to install this app.
 
 ```bash
 npm install
+
+# install system for rapid Vue.js development
+npm install -g @vue/cli
+
+# install for serve production build
+npm install -g serve
+
 ```
 
 ## Build Setup
 
 ```bash
 
-# serve with hot reload at localhost:8080
-npm run serve
+# start express server
+npm run server
 
-# build for production
+# dev client with hot reload at localhost:8080
+npm run dev
+
+# build for production in dist folder
 npm run build
+
+# concurrently run server and client in dev
+npm run start
+
+# concurrently run server and client in prod
+npm run prod
+
 ```
 
 ## Customize configuration
